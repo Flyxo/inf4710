@@ -9,17 +9,20 @@
 #include "common.hpp"
 using namespace tp3;
 
-int tp3::lireVideo(const char* nomFichier) {
+vector<cv::Mat> tp3::lireVideo(const string nomFichier) {
+    
     cv::VideoCapture cap(nomFichier);
-    if(!cap.isOpened())  // check if we succeeded
-        return -1;
-    while(true) {
-        cv::Mat frame;
-        cap >> frame; // get a new frame from video
-        if(frame.empty())
-            break; // end-of-stream
-        cv::imshow("frame",frame);
-        cv::waitKey(1);
+    vector<cv::Mat> frames;
+    if(cap.isOpened()){  // check if we succeeded
+        while(true) {
+            cv::Mat frame;
+            cap >> frame; // get a new frame from video
+            if(frame.empty())
+                break; // end-of-stream
+            frames.push_back(frame);
+            //cv::imshow("frame",frame);
+            //cv::waitKey(1);
+        }
     }
-    return 0;
+    return frames;
 }

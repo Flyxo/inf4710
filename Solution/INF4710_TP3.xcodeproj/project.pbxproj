@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8EAE2BCF40A6470C91102D0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = F80D25BC4BE84008AA21723C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				77EA4728D2D041299B931CD6 /* CMake Rules */,
+				BE9EC607B9904679B8E7F5C7 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,14 +20,14 @@
 		};
 		B1D09BCBA3D24EE983F900CF /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 00F69C1574414625BD0330BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 5FBFE58C91254E83BD223F5C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				08D9B8FAE4E34276947BF1C9 /* CMake Rules */,
+				E52705AB7B864C06BFA52181 /* CMake Rules */,
 			);
 			dependencies = (
-				3B9C63BB951746919EF80CF6 /* PBXTargetDependency */,
-				4DD31B71C0F84226B3CD8290 /* PBXTargetDependency */,
-				EE841A953A8D4930A6FF2382 /* PBXTargetDependency */,
+				F307A04E70E34E06956E51A7 /* PBXTargetDependency */,
+				76C3744D41284673960FEAD6 /* PBXTargetDependency */,
+				935D4A36E9D74A85922C72A6 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -35,72 +35,75 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A3F724816C24A4093D2A337 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */ = {isa = PBXBuildFile; fileRef = B97213CEDA0F4EF4BD16549C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		1A6666625C5D429A975F77E4 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */ = {isa = PBXBuildFile; fileRef = A3E3D0F0EAF8470EA1085887 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		40A09EA3E1684075B3D73EC8 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */ = {isa = PBXBuildFile; fileRef = 8294D90233524F19BE3F8B84 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		596454FA8B8B46C9AE1E8B91 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */ = {isa = PBXBuildFile; fileRef = 8892C68931F64509B5045DC2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		6B93F79FDEB4416DADD4751D /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9CE1F50B7CDC4B37B31B8598 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		CE7E9D1B29AE4660BED42610 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 421D59B928714653A56A657F /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		DA0112868C0B4E299A49327C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 190AC1FC8CF945399F14A659 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2A38B627C6604DDE8E100674 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */ = {isa = PBXBuildFile; fileRef = A05935B0ACA14C6A84807BD2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4166C188B6D840C89605D8BA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcArete.cpp */ = {isa = PBXBuildFile; fileRef = 9EBEE58BB5044932BD38EFEA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcArete.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		450EBEB1B3AB4F3D930F111A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcRatio.cpp */ = {isa = PBXBuildFile; fileRef = A750D343977745A5B0DE687B /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcRatio.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D253E130CC04FBD9A24B667 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcConvo.cpp */ = {isa = PBXBuildFile; fileRef = 96C6DD8CF2F34562BA72615C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcConvo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6226550056224BE0B979C946 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E06D2F615E4A484983776CDA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6AA7EF8BD81B40CB801CF528 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */ = {isa = PBXBuildFile; fileRef = 803BCB6069634AC29CC6B43A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7669037636E348048902FD9A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E6F00990E7B44C3DBAE19C45 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B128845AA0AA405EB716BD90 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */ = {isa = PBXBuildFile; fileRef = D3BF1184F7534A7482ABDA3C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C3C7287A2A284180920E9049 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */ = {isa = PBXBuildFile; fileRef = 1855F9E440394334AF2DB164 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DF17BF39188B497083FBB09F /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */ = {isa = PBXBuildFile; fileRef = 6166CCDD737F4B578F80C289 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		8EA3D7BBFBAC4F44A036893E = {
-			isa = PBXBuildStyle;
-		};
-		C5C93DDDF97844A382B0F508 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		C7335C3908F34874A3F80510 /* Debug */ = {
+		2B60FBBB8564482C82816705 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		40D00BAFA4204947BED33437 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5BCF39FB679E4218877566C2 = {
+			isa = PBXBuildStyle;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		3B51734875144D58A5B9C8EF /* PBXContainerItemProxy */ = {
+		302EF7FFA74F4D1C8B8FC051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC4DB10FCB412D8E7BBEA8;
+			remoteInfo = ZERO_CHECK;
+		};
+		5D44E130BF0C4EC0908A5F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC4DB10FCB412D8E7BBEA8;
+			remoteInfo = ZERO_CHECK;
+		};
+		74B680D18EB942C7B8F02223 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C98E9D1C9414466FA226A1D8;
 			remoteInfo = tp3_lib;
 		};
-		6243BE0E65FB4602A78F91EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86DC4DB10FCB412D8E7BBEA8;
-			remoteInfo = ZERO_CHECK;
-		};
-		73544F20018E448BA88691F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86DC4DB10FCB412D8E7BBEA8;
-			remoteInfo = ZERO_CHECK;
-		};
-		CB3FE9A05FAE422ABE9066B3 /* PBXContainerItemProxy */ = {
+		8171077462D84E85B239D056 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A72FD5577F014CE6B376F747;
 			remoteInfo = main;
 		};
-		F58C64B487D34BA0857418ED /* PBXContainerItemProxy */ = {
+		EFB1CFBB53444F69BC5D5B62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86DC4DB10FCB412D8E7BBEA8;
 			remoteInfo = ZERO_CHECK;
 		};
-		F707510677274E5B87A3D0DA /* PBXContainerItemProxy */ = {
+		FADD72B974374F9688A58238 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C8D532EABB84051B8A62EDE /* Project object */;
 			proxyType = 1;
@@ -110,131 +113,137 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		190AC1FC8CF945399F14A659 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		421D59B928714653A56A657F /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8294D90233524F19BE3F8B84 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lireVideo.cpp; path = src/lireVideo.cpp; sourceTree = SOURCE_ROOT; };
-		8892C68931F64509B5045DC2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = include/common.hpp; sourceTree = SOURCE_ROOT; };
-		9CE1F50B7CDC4B37B31B8598 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A3E3D0F0EAF8470EA1085887 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calcCarteForce.cpp; path = src/calcCarteForce.cpp; sourceTree = SOURCE_ROOT; };
-		B97213CEDA0F4EF4BD16549C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = defines.hpp; path = include/defines.hpp; sourceTree = SOURCE_ROOT; };
-		CEBECC2CE78341C19EC22E20 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D6895A3641794D79BE85C1BE /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0584E2B3F8B4F5B905C35AA /* tp3_lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtp3_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E84DDFEACCA5484BAFEA8152 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0925603954A9485992EE757C /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		1855F9E440394334AF2DB164 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calcCarteForce.cpp; path = src/calcCarteForce.cpp; sourceTree = SOURCE_ROOT; };
+		6166CCDD737F4B578F80C289 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lireVideo.cpp; path = src/lireVideo.cpp; sourceTree = SOURCE_ROOT; };
+		803BCB6069634AC29CC6B43A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = defines.hpp; path = include/defines.hpp; sourceTree = SOURCE_ROOT; };
+		96C6DD8CF2F34562BA72615C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcConvo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calcConvo.cpp; path = src/calcConvo.cpp; sourceTree = SOURCE_ROOT; };
+		9EBEE58BB5044932BD38EFEA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcArete.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calcArete.cpp; path = src/calcArete.cpp; sourceTree = SOURCE_ROOT; };
+		A05935B0ACA14C6A84807BD2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		A750D343977745A5B0DE687B /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcRatio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calcRatio.cpp; path = src/calcRatio.cpp; sourceTree = SOURCE_ROOT; };
+		BB1862F79122474D89B14CFE /* tp3_lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libtp3_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D16B698DFA454E820584F6 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3BF1184F7534A7482ABDA3C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = include/common.hpp; sourceTree = SOURCE_ROOT; };
+		E06D2F615E4A484983776CDA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E6F00990E7B44C3DBAE19C45 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F528401A643349188A86E173 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		00AE779C48CB4C13A617A11A /* tp3_lib */ = {
+		090FACD2BA634597AA9E7456 /* ZERO_CHECK */ = {
 			isa = PBXGroup;
 			children = (
-				DC85D6AB50EF4A6FB976D8C7 /* Source Files */,
-				3CAA41EE50AD40C7A152183B /* Header Files */,
-				9CE1F50B7CDC4B37B31B8598 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
-			);
-			name = tp3_lib;
-			sourceTree = "<group>";
-		};
-		18D04828B67348579C10A86B /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				5C9EED7D23064E44A2AE7609 /* CMake Rules */,
-				E84DDFEACCA5484BAFEA8152 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		207F4F02AAB74BF196A2E1E5 = {
-			isa = PBXGroup;
-			children = (
-				90B89D6A910840E8B2CDDE32 /* Sources */,
-				94C70F3AE914409893460BE9 /* Resources */,
-				27514A1ED9CD4D7DB2294EDE /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		27514A1ED9CD4D7DB2294EDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D6895A3641794D79BE85C1BE /* main */,
-				E0584E2B3F8B4F5B905C35AA /* tp3_lib */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3CAA41EE50AD40C7A152183B /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				8892C68931F64509B5045DC2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */,
-				B97213CEDA0F4EF4BD16549C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		5C9EED7D23064E44A2AE7609 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		70D92CA61A874BF8976DEBAD /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				87E80B0688DB453C950E9F96 /* CMake Rules */,
-				CEBECC2CE78341C19EC22E20 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
+				2FCAD6333C664E379FE8E64A /* CMake Rules */,
+				F528401A643349188A86E173 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
 			sourceTree = "<group>";
 		};
-		87E80B0688DB453C950E9F96 /* CMake Rules */ = {
+		2FCAD6333C664E379FE8E64A /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		90B89D6A910840E8B2CDDE32 /* Sources */ = {
+		53608585A3A14C7B94490A0F /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEE3DD4F60B0424AA0A6D97A /* main */,
-				00AE779C48CB4C13A617A11A /* tp3_lib */,
-				18D04828B67348579C10A86B /* ALL_BUILD */,
-				70D92CA61A874BF8976DEBAD /* ZERO_CHECK */,
+				A05935B0ACA14C6A84807BD2 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6C626896354C4301B224FB9F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				88FBE037738C4E5AB3E280B6 /* main */,
+				B9FBA2AF6A464A2BBD0607F9 /* tp3_lib */,
+				86F6187ADBDE4E2DACCA10E1 /* ALL_BUILD */,
+				090FACD2BA634597AA9E7456 /* ZERO_CHECK */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		94C70F3AE914409893460BE9 /* Resources */ = {
+		86F6187ADBDE4E2DACCA10E1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F9B6C17512BD47B3AF59256E /* CMake Rules */,
+				C8D16B698DFA454E820584F6 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		88FBE037738C4E5AB3E280B6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				53608585A3A14C7B94490A0F /* Source Files */,
+				E6F00990E7B44C3DBAE19C45 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		9D1677AEF9DA4692BF6BD39E = {
+			isa = PBXGroup;
+			children = (
+				6C626896354C4301B224FB9F /* Sources */,
+				E45D6F71DA2C4BC5B1B7735F /* Resources */,
+				AB36AF7D33D64E4FB3F0687E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5238C35B3E412AA0C691EA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BF1184F7534A7482ABDA3C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/common.hpp */,
+				803BCB6069634AC29CC6B43A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include/defines.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AB36AF7D33D64E4FB3F0687E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0925603954A9485992EE757C /* main */,
+				BB1862F79122474D89B14CFE /* tp3_lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05D9A34D018416BB1596BF7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EBEE58BB5044932BD38EFEA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcArete.cpp */,
+				1855F9E440394334AF2DB164 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */,
+				96C6DD8CF2F34562BA72615C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcConvo.cpp */,
+				A750D343977745A5B0DE687B /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcRatio.cpp */,
+				6166CCDD737F4B578F80C289 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B9FBA2AF6A464A2BBD0607F9 /* tp3_lib */ = {
+			isa = PBXGroup;
+			children = (
+				B05D9A34D018416BB1596BF7 /* Source Files */,
+				9D5238C35B3E412AA0C691EA /* Header Files */,
+				E06D2F615E4A484983776CDA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
+			);
+			name = tp3_lib;
+			sourceTree = "<group>";
+		};
+		E45D6F71DA2C4BC5B1B7735F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A6869647F1D2417FB15D3538 /* Source Files */ = {
+		F9B6C17512BD47B3AF59256E /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				190AC1FC8CF945399F14A659 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */,
 			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		DC85D6AB50EF4A6FB976D8C7 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3E3D0F0EAF8470EA1085887 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */,
-				8294D90233524F19BE3F8B84 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		EEE3DD4F60B0424AA0A6D97A /* main */ = {
-			isa = PBXGroup;
-			children = (
-				A6869647F1D2417FB15D3538 /* Source Files */,
-				421D59B928714653A56A657F /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/CMakeLists.txt */,
-			);
-			name = main;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,35 +251,35 @@
 /* Begin PBXNativeTarget section */
 		A72FD5577F014CE6B376F747 /* main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C8F375D0DC74B82837398B0 /* Build configuration list for PBXNativeTarget "main" */;
+			buildConfigurationList = 78F599ED4AB04956B22E95AB /* Build configuration list for PBXNativeTarget "main" */;
 			buildPhases = (
-				EE5F9846B5A047D6BDCA1605 /* Sources */,
+				E608BA253E52484E9F8230DF /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7EFD72CEA3584C66A37BD050 /* PBXTargetDependency */,
-				99866C9AC75145DF8E9FB3FF /* PBXTargetDependency */,
+				75634E416206424EB62F82D8 /* PBXTargetDependency */,
+				E4E05BEF51E04D819AB6C2D0 /* PBXTargetDependency */,
 			);
 			name = main;
 			productName = main;
-			productReference = D6895A3641794D79BE85C1BE /* main */;
+			productReference = 0925603954A9485992EE757C /* main */;
 			productType = "com.apple.product-type.tool";
 		};
 		C98E9D1C9414466FA226A1D8 /* tp3_lib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99993A311CB84C429B543C57 /* Build configuration list for PBXNativeTarget "tp3_lib" */;
+			buildConfigurationList = 4CBD43C6FDB34A77BE8903B3 /* Build configuration list for PBXNativeTarget "tp3_lib" */;
 			buildPhases = (
-				E58E2FE98BCE4C568AB1614C /* Sources */,
+				B0C726C236F94868B320E1A5 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				99EEF15BDD2E47DBBC1EED3D /* PBXTargetDependency */,
+				34B53F21A3C3434AB8425D86 /* PBXTargetDependency */,
 			);
 			name = tp3_lib;
 			productName = tp3_lib;
-			productReference = E0584E2B3F8B4F5B905C35AA /* tp3_lib */;
+			productReference = BB1862F79122474D89B14CFE /* tp3_lib */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -282,16 +291,16 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0900;
 			};
-			buildConfigurationList = 1CA0BC36519A46D89FA654E1 /* Build configuration list for PBXProject "INF4710_TP3" */;
+			buildConfigurationList = 33D7353989044CAEB1E48BEA /* Build configuration list for PBXProject "INF4710_TP3" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				C7335C3908F34874A3F80510 /* Debug */,
-				C5C93DDDF97844A382B0F508 /* Release */,
+				2B60FBBB8564482C82816705 /* Debug */,
+				40D00BAFA4204947BED33437 /* Release */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 207F4F02AAB74BF196A2E1E5;
+			mainGroup = 9D1677AEF9DA4692BF6BD39E;
 			projectDirPath = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources";
 			projectRoot = "";
 			targets = (
@@ -304,18 +313,37 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08D9B8FAE4E34276947BF1C9 /* CMake Rules */ = {
+		0611A0D04AE8459081DED04D = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			name = "CMake Rules";
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution -f /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "# shell script goes here
+exit 0";
 			showEnvVarsInLog = 0;
 		};
-		77EA4728D2D041299B931CD6 /* CMake Rules */ = {
+		8A97D6F918CC45D9906B8EB2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BE9EC607B9904679B8E7F5C7 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,102 +354,98 @@
 			shellScript = "make -C /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution -f /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		DE2F48E0E7734AA6A8E39428 = {
+		E52705AB7B864C06BFA52181 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
+			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		F7189480BCF14AF68DF36586 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "make -C /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution -f /Users/wilfriedkamga/Google\\ Drive/Polymtl/INF4710\\ TPs/TP3/Solution/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E58E2FE98BCE4C568AB1614C /* Sources */ = {
+		B0C726C236F94868B320E1A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A6666625C5D429A975F77E4 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */,
-				40A09EA3E1684075B3D73EC8 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */,
+				4166C188B6D840C89605D8BA /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcArete.cpp */,
+				C3C7287A2A284180920E9049 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcCarteForce.cpp */,
+				5D253E130CC04FBD9A24B667 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcConvo.cpp */,
+				450EBEB1B3AB4F3D930F111A /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/calcRatio.cpp */,
+				DF17BF39188B497083FBB09F /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/lireVideo.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE5F9846B5A047D6BDCA1605 /* Sources */ = {
+		E608BA253E52484E9F8230DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0112868C0B4E299A49327C /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */,
+				2A38B627C6604DDE8E100674 /* /Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/src/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B9C63BB951746919EF80CF6 /* PBXTargetDependency */ = {
+		34B53F21A3C3434AB8425D86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */;
-			targetProxy = 73544F20018E448BA88691F7 /* PBXContainerItemProxy */;
+			targetProxy = EFB1CFBB53444F69BC5D5B62 /* PBXContainerItemProxy */;
 		};
-		4DD31B71C0F84226B3CD8290 /* PBXTargetDependency */ = {
+		75634E416206424EB62F82D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98E9D1C9414466FA226A1D8 /* tp3_lib */;
+			targetProxy = 74B680D18EB942C7B8F02223 /* PBXContainerItemProxy */;
+		};
+		76C3744D41284673960FEAD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98E9D1C9414466FA226A1D8 /* tp3_lib */;
+			targetProxy = FADD72B974374F9688A58238 /* PBXContainerItemProxy */;
+		};
+		935D4A36E9D74A85922C72A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */;
+			targetProxy = 302EF7FFA74F4D1C8B8FC051 /* PBXContainerItemProxy */;
+		};
+		E4E05BEF51E04D819AB6C2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */;
+			targetProxy = 5D44E130BF0C4EC0908A5F71 /* PBXContainerItemProxy */;
+		};
+		F307A04E70E34E06956E51A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A72FD5577F014CE6B376F747 /* main */;
-			targetProxy = CB3FE9A05FAE422ABE9066B3 /* PBXContainerItemProxy */;
-		};
-		7EFD72CEA3584C66A37BD050 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */;
-			targetProxy = F58C64B487D34BA0857418ED /* PBXContainerItemProxy */;
-		};
-		99866C9AC75145DF8E9FB3FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C98E9D1C9414466FA226A1D8 /* tp3_lib */;
-			targetProxy = 3B51734875144D58A5B9C8EF /* PBXContainerItemProxy */;
-		};
-		99EEF15BDD2E47DBBC1EED3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 86DC4DB10FCB412D8E7BBEA8 /* ZERO_CHECK */;
-			targetProxy = 6243BE0E65FB4602A78F91EB /* PBXContainerItemProxy */;
-		};
-		EE841A953A8D4930A6FF2382 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C98E9D1C9414466FA226A1D8 /* tp3_lib */;
-			targetProxy = F707510677274E5B87A3D0DA /* PBXContainerItemProxy */;
+			targetProxy = 8171077462D84E85B239D056 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E6D8C3B98D04CB8A4442F5C /* Debug */ = {
+		16B28876ABB2423AB7C45498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
-				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Debug;
 		};
-		636442D41A0B43D099DD4507 /* Debug */ = {
+		2E92D4E8BB894DFB9661CF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -446,7 +470,16 @@ exit 0";
 			};
 			name = Debug;
 		};
-		6450274E030341CCBF16C47C /* Release */ = {
+		5BFA92C98EF847CCAB7282DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/build";
+			};
+			name = Debug;
+		};
+		5DB48BF8730A4B70B22144D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -473,20 +506,24 @@ exit 0";
 			};
 			name = Release;
 		};
-		700B4C9875E34D9FA0E3C4CD /* Release */ = {
+		8D3D4541217A428E8C420790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG '-std=gnu++11'   -march=native -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = tp3_lib;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
 				USE_HEADERMAP = NO;
@@ -494,37 +531,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		87E650034DFB494BB5E9AFC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
-				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/build";
-			};
-			name = Release;
-		};
-		8890E445FBDF4EF2B68A84C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		989C249435DD48E780766709 /* Debug */ = {
+		973172891C964CE385A2C8B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -551,28 +558,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		C192E695D472418D88FA6921 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		C77E9E44013745C78937E10D /* Debug */ = {
+		9D7C8D649C4B4C0EB26CDC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -593,24 +579,20 @@ exit 0";
 			};
 			name = Debug;
 		};
-		C828099593B14126AA0CA287 /* Release */ = {
+		A3778B9ABF584A55BDB17CCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG '-std=gnu++11'   -march=native -Wall";
-				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = tp3_lib;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
 				USE_HEADERMAP = NO;
@@ -618,50 +600,80 @@ exit 0";
 			};
 			name = Release;
 		};
+		D4E5F9E052C545E4BC69B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,"\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Resources/include\"","\"/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/include\"");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D916302CF19E4A73B2A26997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wilfriedkamga/Google Drive/Polymtl/INF4710 TPs/TP3/Solution/build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00F69C1574414625BD0330BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		33D7353989044CAEB1E48BEA /* Build configuration list for PBXProject "INF4710_TP3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77E9E44013745C78937E10D /* Debug */,
-				C192E695D472418D88FA6921 /* Release */,
+				5BFA92C98EF847CCAB7282DC /* Debug */,
+				D916302CF19E4A73B2A26997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1CA0BC36519A46D89FA654E1 /* Build configuration list for PBXProject "INF4710_TP3" */ = {
+		4CBD43C6FDB34A77BE8903B3 /* Build configuration list for PBXNativeTarget "tp3_lib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E6D8C3B98D04CB8A4442F5C /* Debug */,
-				87E650034DFB494BB5E9AFC6 /* Release */,
+				2E92D4E8BB894DFB9661CF95 /* Debug */,
+				8D3D4541217A428E8C420790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4C8F375D0DC74B82837398B0 /* Build configuration list for PBXNativeTarget "main" */ = {
+		5FBFE58C91254E83BD223F5C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				989C249435DD48E780766709 /* Debug */,
-				6450274E030341CCBF16C47C /* Release */,
+				9D7C8D649C4B4C0EB26CDC0B /* Debug */,
+				A3778B9ABF584A55BDB17CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8EAE2BCF40A6470C91102D0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		78F599ED4AB04956B22E95AB /* Build configuration list for PBXNativeTarget "main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8890E445FBDF4EF2B68A84C5 /* Debug */,
-				700B4C9875E34D9FA0E3C4CD /* Release */,
+				973172891C964CE385A2C8B2 /* Debug */,
+				5DB48BF8730A4B70B22144D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		99993A311CB84C429B543C57 /* Build configuration list for PBXNativeTarget "tp3_lib" */ = {
+		F80D25BC4BE84008AA21723C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				636442D41A0B43D099DD4507 /* Debug */,
-				C828099593B14126AA0CA287 /* Release */,
+				16B28876ABB2423AB7C45498 /* Debug */,
+				D4E5F9E052C545E4BC69B94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

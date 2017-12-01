@@ -63,6 +63,9 @@ configure_file(
 add_library(tp3_lib STATIC
     "src/calcCarteForce.cpp"
     "src/lireVideo.cpp"
+    "src/calcConvo.cpp"
+    "src/calcArete.cpp"
+    "src/calcRatio.cpp"
     "include/common.hpp"
     "include/defines.hpp"
 )
